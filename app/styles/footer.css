@@ -1,0 +1,39 @@
+.footer-region {
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+/* Used to move the footer buttons into what would normally be the content region upon clicking 'contact me' */
+.footer-region--centered {
+    position: relative;
+    left: 25%;
+}
+
+.footer-container {
+    margin: auto;
+}
+
+.footer-logo {
+    height: 25px;
+    width: 25px;
+    margin: 0px 5px 0px 5px;
+}
+ /* Fix */
+.footer-logo--centered {
+    height: 25px;
+    width: 25px;
+    margin: 10px 5px 10px 5px;
+}
+
+.icon-text {
+    position: relative;
+    display: inline-block;
+    bottom: 5px;
+}
+
+.hide-logo-bar {
+    color: white;  Hiding a weird underscore-like bar, figure out why this is here 
+}

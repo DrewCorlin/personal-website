@@ -1,0 +1,32 @@
+:root{
+    --main-color: #aed8e5;
+    --btn-hover-color: #c4e7f2;    
+}
+
+.btn {
+    background-color: var(--main-color);
+    height: 25px;
+    width: 120px;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    border: 0;
+    margin: 0px 3px 0px 3px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: var(--btn-hover-color);
+}
+
+.buttons-region {
+    display: flex;
+}
+
+.buttons-view {
+    padding: 20px 0px 20px 0px;
+    margin: auto;
+}

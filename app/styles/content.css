@@ -1,0 +1,26 @@
+.content-text {
+    text-align: center;
+}
+
+.education {
+    /*text-align: center;*/
+}
+
+.tufts {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.major-minor {
+    font-size: 18px;
+    margin: 0;
+}
+
+.course-list-element {
+    list-style-type: square;
+    list-style: 
+}
+
+.invisible {
+    display: none;
+}
